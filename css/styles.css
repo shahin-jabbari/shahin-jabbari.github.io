@@ -461,7 +461,6 @@ mark,
 
 .initialism {
   font-size: 90%;
-  /* text-transform: uppercase; */
 }
 
 .blockquote {
@@ -6101,13 +6100,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #001a00 !important;
+  background-color: #264F78 !important; /* Vittorio's comment - this is the color of the left panel: #264F78 */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #001a00 !important;
+  background-color: #3A78B6 !important; /* Vittorio's comment - this is the color of the text links: #3A78B6 */
 }
 
 .bg-secondary {
@@ -9803,11 +9802,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #001A00 !important;
+  color: #3A78B6 !important; /* Vittorio's comment - this is the color of the bue text: #3A78B6 */
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #001A00 !important;
+  color: #3A78B6 !important; /* Vittorio's comment - this is the color of the bue text link: #3A78B6 */
 }
 
 .text-secondary {
